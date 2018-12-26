@@ -96,8 +96,6 @@ var sofa: Sofa?
 ```swift
 @IBAction func orderKitchenAction(_ sender: UIButton) {
     chair = KitchenFactory().createChair()
-    table = KitchenFactory().createTable()
-    sofa = KitchenFactory().createSofa()
 }
 ```
 
