@@ -84,18 +84,21 @@ class KitchenFactory: AbstractFactory {
 
 ## Workspace
 
-#### Create three properties
+#### Create property
 
 ```swift
 var chair: Chair?
-var table: Table?
-var sofa: Sofa?
 ```
 #### Create IBAction
 
 ```swift
 @IBAction func orderKitchenAction(_ sender: UIButton) {
     chair = KitchenFactory().createChair()
+}
+```
+```swift
+@IBAction func orderBedroomAction(_ sender: UIButton) {
+    chair = BedroomFactory().createChair()
 }
 ```
 
