@@ -10,11 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    var chair: Chair?
+    var table: Table?
+    var sofa: Sofa?
+
+    @IBAction func orderKitchenAction(_ sender: UIButton) {
+        chair = KitchenFactory().createChair()
+        table = KitchenFactory().createTable()
+        sofa = KitchenFactory().createSofa()
     }
-
-
+    
+    @IBAction func orderBedroomAction(_ sender: UIButton) {
+        chair = BedroomFactory().createChair()
+        table = BedroomFactory().createTable()
+        sofa = BedroomFactory().createSofa()
+    }
 }
 
