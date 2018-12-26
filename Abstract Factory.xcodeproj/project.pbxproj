@@ -69,6 +69,7 @@
 			children = (
 				8431A69F21D3BDFC0052E262 /* README.md */,
 				8431A66E21D3A9710052E262 /* Abstract Factory */,
+				8431A6A421D3C5FA0052E262 /* images */,
 				8431A66D21D3A9710052E262 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,7 +95,6 @@
 				8431A67B21D3A9720052E262 /* Info.plist */,
 				8431A69021D3AE340052E262 /* Bedroom Furniture */,
 				8431A69721D3AED40052E262 /* Kitchen Furniture */,
-				8431A6A421D3C5FA0052E262 /* images */,
 			);
 			path = "Abstract Factory";
 			sourceTree = "<group>";
